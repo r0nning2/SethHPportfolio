@@ -1,38 +1,4 @@
 
-/* Scroll Reveal */
-
-const reveals = document.querySelectorAll('.reveal');
-
-function revealOnScroll(){
-const windowHeight = window.innerHeight;
-
-reveals.forEach(el=>{
-const top = el.getBoundingClientRect().top;
-
-if(top < windowHeight - 100){
-el.classList.add('active');
-}
-});
-}
-
-window.addEventListener('scroll', revealOnScroll);
-revealOnScroll();
-
-
-/* Dark Light Toggle */
-
-const toggle = document.getElementById('themeToggle');
-
-toggle.onclick = () =>{
-document.body.classList.toggle('light');
-
-toggle.textContent =
-document.body.classList.contains('light') ? "☀️" : "🌙";
-};
-
-
-/* Network Graph Background */
-
 const canvas = document.getElementById("network");
 const ctx = canvas.getContext("2d");
 
@@ -51,11 +17,9 @@ vy:(Math.random()-0.5)*0.5
 }
 
 function draw(){
-
 ctx.clearRect(0,0,canvas.width,canvas.height);
 
 particles.forEach(p=>{
-
 p.x += p.vx;
 p.y += p.vy;
 
@@ -67,7 +31,6 @@ ctx.arc(p.x,p.y,2,0,Math.PI*2);
 ctx.fill();
 
 particles.forEach(p2=>{
-
 const dx=p.x-p2.x;
 const dy=p.y-p2.y;
 const dist=Math.sqrt(dx*dx+dy*dy);
@@ -78,9 +41,7 @@ ctx.moveTo(p.x,p.y);
 ctx.lineTo(p2.x,p2.y);
 ctx.stroke();
 }
-
 });
-
 });
 
 requestAnimationFrame(draw);
