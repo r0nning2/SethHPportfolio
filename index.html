@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Seth Hammon | Cybersecurity Portfolio</title>
+<title>Seth Hammon | Portfolio</title>
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
@@ -16,108 +16,92 @@
 <nav>
 <h2>Seth Hammon</h2>
 <ul>
-<li><a href="#about">About</a></li>
-<li><a href="#resume">Resume</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#education">Education</a></li>
 <li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
+<li><a href="#references">References</a></li>
 </ul>
-
-<button id="themeToggle">🌙</button>
 </nav>
 
-<header class="reveal">
-<h1>Cybersecurity Portfolio</h1>
-<p>Security • Networking • Systems</p>
-<a class="btn" href="resume.pdf" target="_blank">Download Resume</a>
+<header>
+<h1>Resume</h1>
+<iframe 
+    src="files/resume.pdf" 
+    width="100%" 
+    height="800px">
+</iframe>
 </header>
 
-<section id="about" class="reveal">
-<h2>About Me</h2>
-<p>
-Cybersecurity student passionate about network analysis, CTF challenges,
-and building practical security tools.
-</p>
+<section id="experience" class="section">
+<h2>Lander ITS</h2>
+<div class="card">
+<h3>Student Technician</h3>
+<p>Provided expert, timely support to Lander students. <br>Ensured seamless integration between personal devices and Lander’s IT infrastructure. <br>Thrived in the high-volume practice while ensuring accurate intake and record keeping.</p>
+</div>
+<h2>TSAChoice</h2>
+<div class="card">
+<h3>Web Solutions Intern            <p>07/2023 – 04/2024</p></h3>
+<p>Provided expert, timely support to Lander students. <br>Ensured seamless integration between personal devices and Lander’s IT infrastructure. <br>Thrived in the high-volume practice while ensuring accurate intake and record keeping.</p>
+</div>
+</section>
 
-<div class="skills">
-
+<section id="skills" class="section">
+<h2>Skills</h2>
+<div class="grid">
 <div class="card">
 <h3>Cybersecurity</h3>
-<p>Wireshark, CTF Design</p>
+<p>Wireshark, CTF Challenges, Network Analysis</p>
 </div>
-
 <div class="card">
 <h3>Programming</h3>
 <p>Python, Java</p>
 </div>
-
 <div class="card">
 <h3>Systems</h3>
 <p>Linux, Networking</p>
 </div>
-
 </div>
 </section>
 
-<section id="resume">
-<h2 class="reveal">Resume Timeline</h2>
-
-<div class="timeline">
-
-<div class="timeline-item reveal">
-<div class="timeline-dot"></div>
-<div class="timeline-content">
-<h3>Education</h3>
-<p>Bachelor’s Degree (Cybersecurity related)</p>
-</div>
-</div>
-
-<div class="timeline-item reveal">
-<div class="timeline-dot"></div>
-<div class="timeline-content">
-<h3>Computer Club Leadership</h3>
-<p>Organized cybersecurity labs and certification training.</p>
-</div>
-</div>
-
-<div class="timeline-item reveal">
-<div class="timeline-dot"></div>
-<div class="timeline-content">
-<h3>Projects</h3>
-<p>CTF challenges, networking labs, and automation tools.</p>
-</div>
-</div>
-
+<section id="education" class="section">
+<h2>Education</h2>
+<div class="card">
+<h3>University Name</h3>
+<p>Degree Program</p>
+<p>Relevant coursework or achievements.</p>
 </div>
 </section>
 
-<section id="projects" class="reveal">
-<h2>GitHub Projects</h2>
-
-<div class="projects">
-
-<div class="project-card">
-<h3>Wireshark CTF Challenge</h3>
-<p>Packet analysis puzzle challenge.</p>
+<section id="projects" class="section">
+<h2>Current Projects</h2>
+<div class="card">
+<h3>Project Title</h3>
+<p>Short description of the project.</p>
+<p><strong>GitHub:</strong> <a href="#">Repository Link</a></p>
 </div>
-
-<div class="project-card">
-<h3>Recursive Flag Generator</h3>
-<p>Overengineered Java flag generator.</p>
+<div class="center">
+<a class="btn" href="projects.html">View All GitHub Projects</a>
 </div>
-
-<div class="project-card">
-<h3>Security Labs</h3>
-<p>Cybersecurity exercises and tools.</p>
-</div>
-
-</div>
-
 </section>
 
-<section id="contact" class="reveal">
-<h2>Contact</h2>
-<p>Email: your@email.com</p>
-<p>GitHub: github.com/username</p>
+<section id="references" class="section">
+<h2>References</h2>
+<div class="grid">
+<div class="card">
+<h3>Reference 1</h3>
+<p>Name</p>
+<p>Position</p>
+<p>Email / Contact</p>
+</div>
+<div class="card">
+<h3>Reference 2</h3>
+<p>Name</p>
+<p>Position</p>
+<p>Email / Contact</p>
+</div>
+</div>
+<p class="center">Additional references available upon request.</p>
 </section>
 
 <footer>
@@ -125,5 +109,6 @@ and building practical security tools.
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
