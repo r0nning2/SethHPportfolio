@@ -1,113 +1,142 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Seth Hammon | Portfolio</title>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seth Hammon | Cybersecurity Student</title>
+  <meta name="description" content="Professional portfolio site for Seth Hammon, a cybersecurity student and student IT technician at Lander University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Seth Hammon</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="experience.html">Work Experience</a>
+        <a href="running.html">Running Career</a>
+      </nav>
+    </div>
+  </header>
 
-<canvas id="network"></canvas>
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Cybersecurity Student • IT Support • Student Athlete</span>
+          <h1>Building a strong foundation in cybersecurity and problem solving.</h1>
+          <p class="lead">I am a cybersecurity student at Lander University with hands-on IT support experience, a strong academic record, and growing technical skills in programming, troubleshooting, and systems support. I am currently working toward my CompTIA A+ certification while continuing to expand my experience in information technology and security.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="experience.html">View Full Work Experience</a>
+            <a class="btn btn-secondary" href="running.html">See Running Career</a>
+          </div>
+          <div class="stat-row">
+            <div class="stat"><strong>4.0 GPA</strong><span class="meta">Lander University</span></div>
+            <div class="stat"><strong>2027</strong><span class="meta">Expected graduation</span></div>
+            <div class="stat"><strong>A+ In Progress</strong><span class="meta">Current certification goal</span></div>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <div class="kicker">Quick profile</div>
+          <h3>Current focus</h3>
+          <p class="meta">Seeking internship or entry-level opportunities in cybersecurity or information technology.</p>
+          <div class="badge-list">
+            <span class="badge">Java</span>
+            <span class="badge">C</span>
+            <span class="badge">C#</span>
+            <span class="badge">SQL</span>
+            <span class="badge">HTML</span>
+            <span class="badge">CSS</span>
+            <span class="badge">Basic Linux</span>
+            <span class="badge">Microsoft 365</span>
+            <span class="badge">Server Management</span>
+            <span class="badge">Log Analysis</span>
+            <span class="badge">Computer Forensics</span>
+            <span class="badge">General IT Support</span>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-<nav>
-<h2>Seth Hammon</h2>
-<ul>
-<li><a href="#experience">Experience</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#education">Education</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#references">References</a></li>
-</ul>
-</nav>
+    <section class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <p class="section-intro">Academic background and areas of study.</p>
+        <div class="grid grid-2">
+          <article class="card">
+            <div class="kicker">University</div>
+            <h3>Lander University</h3>
+            <p class="meta">Cybersecurity major • Junior • Expected graduation May 2027</p>
+            <ul class="list">
+              <li>Minors in Homeland Security and Business Administration</li>
+              <li>Current GPA: 4.0</li>
+              <li>Credits earned: 93</li>
+              <li>Honors: Lander Honors College and Chi Alpha Sigma</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="kicker">Coursework & Development</div>
+            <h3>Technical preparation</h3>
+            <ul class="list">
+              <li>Relevant coursework includes Java, HTML, Network Administration, SQL, Server Side Management, and Microsoft Suite tools</li>
+              <li>Founder and board member of the university computer science club</li>
+              <li>Continuing professional growth through hands-on support work and independent technical projects</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<header>
-<h1>Resume</h1>
-<object data="Resume.pdf" type="resume.pdf" width="80%" height="800px">
-    <p>Your browser does not support PDFs. <a href="Resume.pdf">Download the PDF</a> instead.</p>
-</object>
-</header>
+    <section class="section">
+      <div class="container split">
+        <article class="panel">
+          <h2>Experience snapshot</h2>
+          <p class="section-intro">A quick look at current and recent roles.</p>
+          <div class="timeline">
+            <div class="timeline-item">
+              <h3>Lander ITS</h3>
+              <div class="meta">Student Technician • Aug 2024 – Present</div>
+              <p>Provide timely support for student technology issues, assist with software and device setup, and maintain accurate ticket intake and support records.</p>
+            </div>
+            <div class="timeline-item">
+              <h3>TSAChoice</h3>
+              <div class="meta">Web Solutions Intern • Jul 2023 – Apr 2024</div>
+              <p>Worked on back-end web solutions using C# and SQL while gaining experience with server-side functionality, code review, and production problem solving.</p>
+            </div>
+          </div>
+        </article>
+        <article class="panel">
+          <h2>Leadership & affiliations</h2>
+          <p class="section-intro">Campus involvement and activities that support both academic and personal growth.</p>
+          <ul class="list">
+            <li>Lander Cross Country and Track &amp; Field distance runner</li>
+            <li>Board member and founder-level leader in the university computer science club</li>
+            <li>Member of the Honors College and Chi Alpha Sigma</li>
+            <li>Strong balance of academics, athletics, and service</li>
+          </ul>
+        </article>
+      </div>
+    </section>
 
-<section id="experience" class="section">
-<h2>Lander ITS</h2>
-<div class="card">
-<h3>Student Technician</h3>
-<p>08/2024 – Present<br>Provided expert, timely support to Lander students. <br>Ensured seamless integration between personal devices and Lander’s IT infrastructure. <br>Thrived in the high-volume practice while ensuring accurate intake and record keeping.</p>
-</div>
-<h2>TSAChoice</h2>
-<div class="card">
-<h3>Web Solutions Intern</h3>
-<p>07/2023 – 04/2024<br>Gained hands-on experience with back-end solutions implementations <br> Experienced in C#, SQL, server-side functionality, code review, and problem-solving<br>Contributed to production-level projects to approach coding challenges strategically and
-independently</p>
-</div>
-</section>
+    <section class="section">
+      <div class="container">
+        <h2>Certification progress</h2>
+        <p class="section-intro">Current technical development goal.</p>
+        <article class="card">
+          <div class="kicker">In progress</div>
+          <h3>CompTIA A+</h3>
+          <p>I am currently working on the CompTIA A+ certification to strengthen my foundation in hardware, operating systems, troubleshooting, networking, and core IT support practices.</p>
+        </article>
+      </div>
+    </section>
+  </main>
 
-<section id="skills" class="section">
-<h2>Skills</h2>
-<div class="grid">
-<div class="card">
-<h3>Cybersecurity</h3>
-<p>Wireshark, CTF Challenges, Network Analysis</p>
-</div>
-<div class="card">
-<h3>Programming</h3>
-<p>Python, Java</p>
-</div>
-<div class="card">
-<h3>Systems</h3>
-<p>Linux, Networking</p>
-</div>
-</div>
-</section>
-
-<section id="education" class="section">
-<h2>Education</h2>
-<div class="card">
-<h3>University Name</h3>
-<p>Degree Program</p>
-<p>Relevant coursework or achievements.</p>
-</div>
-</section>
-
-<section id="projects" class="section">
-<h2>Current Projects</h2>
-<div class="card">
-<h3>Project Title</h3>
-<p>Short description of the project.</p>
-<p><strong>GitHub:</strong> <a href="#">Repository Link</a></p>
-</div>
-<div class="center">
-<a class="btn" href="projects.html">View All GitHub Projects</a>
-</div>
-</section>
-
-<section id="references" class="section">
-<h2>References</h2>
-<div class="grid">
-<div class="card">
-<h3>Reference 1</h3>
-<p>Name</p>
-<p>Position</p>
-<p>Email / Contact</p>
-</div>
-<div class="card">
-<h3>Reference 2</h3>
-<p>Name</p>
-<p>Position</p>
-<p>Email / Contact</p>
-</div>
-</div>
-<p class="center">Additional references available upon request.</p>
-</section>
-
-<footer>
-<p>© 2026 Seth Hammon</p>
-</footer>
-
-<script src="script.js"></script>
-
+  <footer class="footer">
+    <div class="container">© 2026 Seth Hammon</div>
+  </footer>
 </body>
 </html>
+
